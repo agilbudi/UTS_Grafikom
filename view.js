@@ -96,7 +96,7 @@ var xprofil = centerX;
 var yprofil = 260;
 circle(xprofil, yprofil, 85); //foto profil clip
 contex.clip();
-img.src = '';
+img.src = 'https://github.com/agilbudi/UTS_Grafikom/blob/master/me.png';
 //'https://firebasestorage.googleapis.com/v0/b/project-dummy-by-hide.appspot.com/o/me%2Fme.png?alt=media&token=99a68119-7753-41a8-bbf4-a5dfedcb0b68'; //'https://cdn.iconscout.com/icon/free/png-512/laptop-user-1-1179329.png';
 contex.drawImage(img, (xprofil-80), (yprofil-70), 160, 160);
 contex.restore();
